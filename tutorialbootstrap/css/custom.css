@@ -1,0 +1,17 @@
+.jumbotron{
+  background-color: green;
+  background: url:('http://placeimg.com/640/480/nature')
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.jumbotron h1, .jumbotron p {
+  color: red;
+}
+.jumbotron.home {
+  background-image: url:('http://placeimg.com/640/480/nature')
+}
+.jumbotron.contact {
+  background-image: url:('http://placeimg.com/640/480/arch')
+}
+.jumbotron.about {
+  background-image: url:('http://placeimg.com/640/480/people')
