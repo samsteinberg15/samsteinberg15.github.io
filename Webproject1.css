@@ -1,0 +1,191 @@
+body  {
+  background-color: #31190d;
+}
+
+.h1 {
+  color: orange;
+  font-family: fantasy;
+  font-size: 50px;
+  animation-name: welcome;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+
+
+}
+
+@keyframes welcome {
+  0% {color: red;}
+  20% {color:yellow;}
+  40% {color:green;}
+  60% {color:blue;}
+  80% {color:purple;}
+  100% {color:black;}
+}
+
+
+.jumbotron {
+  background-color: #e4be6166;
+  border: 5px solid black;
+  outline-color: #ffe6a866;
+  outline-style: groove;
+  outline-width: thick;
+  font-style: italic;
+  color: black;
+  font-family: fantasy;
+  font-size: 20px;
+
+}
+
+
+.navbar {
+  background-color: #e4be6166;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: orange;
+}
+
+.link {
+  color: #31190d;
+}
+
+#fresh {
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.checked {
+  color: yellow;
+}
+
+.head {
+  color: orange;
+  font-style: italic;
+  font-family: fantasy;
+  font-size: 45px;
+}
+
+.container1 {
+  background-color: #442b08;
+}
+
+.col {
+  color: #c1894e;
+  font-family: gill sans;
+  padding-bottom: 5px;
+}
+
+.int {
+  color: saddlebrown;
+  font-style: italic;
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.intro {
+  display: flex;
+}
+
+.menu {
+  font-family: fantasy;
+  font-size: 75px;
+  color: orange;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.price {
+  font-size: 40px;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.coffee {
+  padding: 10px;
+}
+
+.about {
+  font-style: italic;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+.abt {
+  font-size: 20px;
+}
+
+.enjoy {
+  font-size: 40px;
+  color: orange;
+  font-style: oblique;
+  font-family: fantasy;
+}
+
+.homey {
+  font-size: 40px;
+  font-family: fantasy;
+}
+
+.home {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.team {
+  color: orange;
+  font-size: 30px;
+  font-family: fantasy;
+  font-style: italic;
+}
+
+.our {
+  color: #442b08;
+  font-size: 20px;
+  font-family: fantasy;
+
+}
+
+.emp {
+  font-size: 35px;
+  color: #442b08;
+  font-weight: bold;
+}
+
+.job {
+  font-size: 25px;
+}
+
+.bio {
+  color: orange;
+  font-family: fantasy;
+  font-size: 20px;
+}
+
+.bi {
+  font-size: 30px;
+}
+
+.contact {
+  color: black;
+}
+
+.cont {
+  color: black;
+}
+
+.open {
+  font-size: 55px;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+
+.fin {
+  height: 300px;
+}
+
+a.button {
+  font-size: 40px;
+  color: orange;
+}
