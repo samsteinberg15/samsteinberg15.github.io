@@ -14,14 +14,14 @@
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://samsteinberg15.github.io/WebProject1.html">
+    <meta property="og:url" content="https://samsteinberg15.github.io/webproject2.html">
     <meta property="og:title" content="CoolBeanz Coffee - Best Coffee Around! ">
     <meta property="og:description" content="Most of all, we are committed to giving you the best customer service as well as a comfortable environment to sit with good friends, research study and work.">
     <meta property="og:image" content="">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://samsteinberg15.github.io/WebProject1.html">
+    <meta property="twitter:url" content="https://samsteinberg15.github.io/webproject2.html">
     <meta property="twitter:title" content="CoolBeanz Coffee - Best Coffee Around! ">
     <meta property="twitter:description" content="Most of all, we are committed to giving you the best customer service as well as a comfortable environment to sit with good friends, research study and work.">
     <meta property="twitter:image" content="">
@@ -54,13 +54,13 @@
       <div class="intro-fluid">
         <div class="row">
           <div class="col">
-            <img class="img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee1_qqjg0v.jpg" alt="coffee cup">
+            <img class="img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee1_qqjg0v.jpg" alt="coffee cup">
           </div>
             <div class="col">
-              <img class="img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee2_ywn8lr.jpg" alt="coffees sign">
+              <img class="img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee2_ywn8lr.jpg" alt="coffees sign">
             </div>
             <div class="col">
-              <img class="img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee3_wfvt4i.jpg" alt="coffee cup">
+              <img class="img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee3_wfvt4i.jpg" alt="coffee cup">
             </div>
          </div>
        </div>
@@ -134,6 +134,13 @@
       look no further than CoolBeanz Cafe!
     </p>
 
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+    <script type="text/javascript">
+      var lazyLoadInstance = new LazyLoad({
+        elements_selector: ".lazy"
+        // ... more custom settings?
+    });
+    </script>
 
-
+  </body>
 </html>

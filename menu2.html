@@ -37,7 +37,7 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <img class="coffee float-left rounded-circle img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623123/coffee4_wdbapj.jpg" alt="coffee">
+              <img class="coffee float-left rounded-circle img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623123/coffee4_wdbapj.jpg" alt="coffee">
             <div class ="col">
               <br></br>
               <br></br>
@@ -49,7 +49,7 @@
           <p></p>
           <div class="row">
             <div class="col">
-              <img class="coffee float-left rounded-circle img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee5_vz6arm.jpg" alt="coffee">
+              <img class="coffee float-left rounded-circle img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee5_vz6arm.jpg" alt="coffee">
               <div class ="col">
                 <br></br>
                 <br></br>
@@ -61,7 +61,7 @@
           <p></p>
           <div class="row">
             <div class="col">
-              <img class="coffee float-left rounded-circle img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee6_u1ts0c.jpg" alt="coffee">
+              <img class="coffee float-left rounded-circle img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee6_u1ts0c.jpg" alt="coffee">
               <div class ="col-10">
                 <br></br>
                 <br></br>
@@ -73,7 +73,7 @@
           <p></p>
           <div class="row">
             <div class="col">
-              <img class="coffee float-left rounded-circle img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee9_rnbga4.jpg" alt="coffee">
+              <img class="coffee float-left rounded-circle img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee9_rnbga4.jpg" alt="coffee">
               <div class ="col-10">
                 <br></br>
                 <br></br>
@@ -85,7 +85,7 @@
           <p></p>
           <div class="row">
             <div class="col">
-              <img class="coffee float-left rounded-circle img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee8_mholnw.jpg" alt="coffee">
+              <img class="coffee float-left rounded-circle img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee8_mholnw.jpg" alt="coffee">
               <div class ="col-10">
                 <br></br>
                 <br></br>
@@ -97,7 +97,7 @@
           <p></p>
           <div class="row">
             <div class="col">
-              <img class="coffee float-left rounded-circle img-fluid" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee10_cls1el.jpg" alt="coffee">
+              <img class="coffee float-left rounded-circle img-fluid lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623124/coffee10_cls1el.jpg" alt="coffee">
               <div class ="col-10">
                 <br></br>
                 <br></br>
@@ -107,6 +107,13 @@
             </div>
           </div>
 
+          <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+          <script type="text/javascript">
+            var lazyLoadInstance = new LazyLoad({
+              elements_selector: ".lazy"
+              // ... more custom settings?
+          });
+          </script>
 
     </body>
 </html>

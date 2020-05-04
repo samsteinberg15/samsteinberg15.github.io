@@ -87,7 +87,7 @@
           <h5>11:00-18:00</h5>
         </div>
       </div>
-    <img class="fin img-fluid img-thumbnail" src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623123/coffee19_xi3vdc.jpg" alt="open">
+    <img class="fin img-fluid img-thumbnail lazy" data-src="https://res.cloudinary.com/dterqe8yx/image/upload/v1588623123/coffee19_xi3vdc.jpg" alt="open">
 
 
 
@@ -122,6 +122,14 @@
             </p>
           </div>
 
+
+          <script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@15.1.1/dist/lazyload.min.js"></script>
+          <script type="text/javascript">
+            var lazyLoadInstance = new LazyLoad({
+              elements_selector: ".lazy"
+              // ... more custom settings?
+          });
+          </script>
 
 
       </body>
