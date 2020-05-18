@@ -1,0 +1,254 @@
+.jumbotron {
+  background-color: rgb(255, 89, 16);
+  border-style: solid;
+  border-color: white;
+  border-width: medium;
+}
+.navbar {
+  background-color: rgb(255, 89, 16);
+}
+
+.link {
+  background-color: rgb(255, 89, 16);
+  color: #0b0080;
+  font-style: italic;
+  font-weight: bolder;
+}
+
+body {
+  background-color: #0b0080;
+}
+
+.font {
+  color: white;
+  font-family: marion;
+  font-size: 20px;
+
+}
+
+.head {
+  color: rgb(255, 89, 16);
+  font-style: oblique;
+}
+
+.beg {
+  color: black;
+  font-size: 23px;
+  font-family: marion;
+  font-style: oblique;
+}
+
+.img {
+  border-width: thick;
+  border-style: ridge;
+  border-color: rgb(255, 89, 16);
+}
+
+.one {
+  border-style: dotted;
+  border-color: white;
+  padding: 10px;
+}
+
+.card {
+  font-family: marion;
+  font-style: oblique;
+  color: black;
+
+}
+
+.hist {
+  color: white;
+  font-family: marion;
+}
+
+#myImg1 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg1:hover {opacity: 0.7;}
+
+#myImg2 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg2:hover {opacity: 0.7;}
+
+#myImg3 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg3:hover {opacity: 0.7;}
+
+#myImg4 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg4:hover {opacity: 0.7;}
+
+#myImg5 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg5:hover {opacity: 0.7;}
+
+#myImg6 {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg6:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+
+@keyframes zoom {
+  from {transform: scale(0.1)}
+  to {transform: scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 75px;
+  right: 200px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.collapsed {
+  color: black;
+  font-size: 30px;
+
+}
+
+.wilpons {
+  color: white;
+  font-size: 40px;
+  font-family: marion;
+  padding-left: 10px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+
+
+  }
+
+.fix {
+  height: 500px;
+}
+
+.cap {
+  font-family: marion;
+  color: white;
+  font-size: 20px;
+
+}
+
+.work {
+  background-color: black;
+  opacity: .7;
+  padding: 5px;
+}
+
+.a {
+  transform: rotate(5deg);
+}
+.b {
+  transform: rotate(-2deg);
+}
+
+.c {
+  transform: rotate(-3deg);
+}
+
+.d {
+  transform: rotate(4deg);
+}
+
+.news {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.articles {
+  font-family: marion;
+  font-size: 70px;
+  color: rgb(255, 89, 16);
+  font-style: oblique;
+}
+
+.wilpon {
+  font-style: italic;
+  font-family: marion;
+  color: white;
+  font-size: 70px;
+  padding-left: 5px;
+}
+
+.contract {
+  color: black;
+  font-size: 18px;
+}
+
+#moves {
+  border-color: white;
+  border-style: dashed;
+  padding: 50px;
+  background-color: rgb(255, 89, 16);
+}
