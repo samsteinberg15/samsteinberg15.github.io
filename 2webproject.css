@@ -4,8 +4,36 @@
   border-color: white;
   border-width: medium;
 }
+
+.nym {
+  animation-name: welcome;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+.logo {
+  animation: heartBeat;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes welcome {
+  0% {color:#black;}
+  10% {color: white;}
+  20% {color: #0b0080;}
+  30% {color:#white;}
+  40% {color: black;}
+  50% {color: white;}
+  60% {color:#0b0080;}
+  70% {color: white;}
+  80% {color: black;}
+  90% {color: white;}
+  100% {color: #0b0080;}
+}
+
 .navbar {
   background-color: rgb(255, 89, 16);
+
 }
 
 .link {
@@ -29,6 +57,9 @@ body {
 .head {
   color: rgb(255, 89, 16);
   font-style: oblique;
+  animation: flash;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
 }
 
 .beg {
@@ -60,6 +91,9 @@ body {
 .hist {
   color: white;
   font-family: marion;
+  animation: zoomIn;
+  animation-duration: 10s;
+  animation-iteration-count: 1;
 }
 
 #myImg1 {
@@ -110,28 +144,26 @@ body {
 
 #myImg6:hover {opacity: 0.7;}
 
-/* The Modal (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
   left: 0;
   top: 0;
-  
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.9);
 }
 
-/* Modal Content (image) */
+
 .modal-content {
   margin: auto;
   display: block;
 
 }
 
-/* Caption of Modal Image */
 #caption {
   margin: auto;
   display: block;
@@ -149,7 +181,7 @@ body {
   to {transform: scale(1)}
 }
 
-/* The Close Button */
+
 .close {
   position: absolute;
   top: 75px;
@@ -184,8 +216,7 @@ body {
     width: 100%;
     height: 100%;
 
-
-  }
+}
 
 .fix {
   height: 500px;
@@ -207,6 +238,7 @@ body {
 .a {
   transform: rotate(5deg);
 }
+
 .b {
   transform: rotate(-2deg);
 }
