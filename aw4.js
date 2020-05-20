@@ -11,14 +11,14 @@ $(document).ready(function(){
     })*/
 
     $.ajax({
-      url: 'https://randomuser.me/api/?results=40',
+      url: 'https://randomuser.me/api/?results=20',
       dataType: 'json',
       success: function(data) {
         console.log(data);
         $.each(data.results, function(key,person){
           console.log(person.name.title + ' ' + person.name.first + ' ' + person.name.last);
-          /*$('#users').append('<div class= "col-2">'+ person.name.title + ' ' + person.name.first + ' ' + person.name.last + '</div><img src= "'+ person.picture.large + '" class="img-fluid rounded-circle">');*/
-          $('#url').append('<img src= "'+ person.picture.large + '" class="img-fluid rounded-circle">' + person.name.title + ' ' + person.name.first + ' ' + person.name.last);
+          $('#users').append('<div class= "col-md-2">' + '<img src= "'+ person.picture.large + '" class="img-fluid rounded-circle">' + ' '  + person.name.first + ' ' + person.name.last +  ' ' + person.nat  + ' ' + '</div>');
+
 
 
 

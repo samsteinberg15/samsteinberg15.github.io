@@ -1,0 +1,8 @@
+.font {
+  font-size: 20px;
+  padding-left: 100px;
+  padding-top: 20px;
+  padding-right: 100px;
+  padding-bottom: 20px;
+  text-transform: lowercase;
+}
