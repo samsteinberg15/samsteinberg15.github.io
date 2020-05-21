@@ -1,8 +1,11 @@
 $(document).ready(function(){
-  /*
-  alert("I am full loaded")
+  popup
+  ("I am popup")
   console.log("Hello World");
-  */
+
+  var x = '10';
+  var y = '5';
+  console.log(x+y);
   /*
   var firstName = 'Sam';
   var lastName = 'Steinberg';
@@ -32,7 +35,7 @@ $(document).ready(function(){
     console.log('mouse has left Jeff McNeil');
     $(this).show();
   })*/
-    $('#hidepicture').on('click',function(){
+  /*  $('#hidepicture').on('click',function(){
       $('#jeff').fadeOut(1000);
     })
     $('#showpicture').on('click',function(){
@@ -51,7 +54,7 @@ $(document).ready(function(){
         $.each(data.results, function(key,person){
           console.log(person.name.title + ' ' + person.name.first + ' ' + person.name.last);
           $('#users').append('<div class= "col-md-2">'+ person.name.title + ' ' + person.name.first + ' ' + person.name.last +'</div>');
-        })
+        })*/
   }
 });
 });
